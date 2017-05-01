@@ -1,0 +1,86 @@
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULETYPELIMITS ===========
+
+ScheduleTypeLimits,
+    Any number,              !- Name
+    ,                        !- Lower Limit Value
+    ,                        !- Upper Limit Value
+    ,                        !- Numeric Type
+    Dimensionless;           !- Unit Type
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE:COMPACT ===========
+
+Schedule:Compact,
+    Always 4,                !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through:12/31,           !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 9:00,             !- Field 3
+    4,                       !- Field 4
+    Until 18:00,             !- Field 5
+    4,                       !- Field 6
+    Until 24:00,             !- Field 7
+    4;                       !- Field 8
+
+Schedule:Compact,
+    Always 20,               !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through:12/31,           !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 8:00,             !- Field 3
+    5,                       !- Field 4
+    Until 18:00,             !- Field 5
+    20,                      !- Field 6
+    Until 24:00,             !- Field 7
+    5;                       !- Field 8
+
+Schedule:Compact,
+    Always 24,               !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through:12/31,           !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 8:00,             !- Field 3
+    40,                      !- Field 4
+    Until 18:00,             !- Field 5
+    24,                      !- Field 6
+    Until 24:00,             !- Field 7
+    40;                      !- Field 8
+
+Schedule:Compact,
+    Internal load sch,       !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For:AllDays,             !- Field 2
+    Until 9:00,              !- Field 3
+    0,                       !- Field 4
+    Until 18:00,             !- Field 5
+    .9,                      !- Field 6
+    Until 24:00,             !- Field 7
+    0;                       !- Field 8
+
+Schedule:Compact,
+    Activity Level,          !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For:AllDays,             !- Field 2
+    Until 9:00,              !- Field 3
+    70,                      !- Field 4
+    Until 18:00,             !- Field 5
+    108,                     !- Field 6
+    Until 24:00,             !- Field 7
+    70;                      !- Field 8
+
+Schedule:Compact,
+    Fan sch,                 !- Name
+    Any number,              !- Schedule Type Limits Name
+    Through:12/31,           !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 8:00,             !- Field 3
+    0,                       !- Field 4
+    Until 18:00,             !- Field 5
+    1,                       !- Field 6
+    Until 24:00,             !- Field 7
+    0;                       !- Field 8
+
+

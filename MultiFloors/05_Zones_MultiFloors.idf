@@ -1,0 +1,1737 @@
+!-   ===========  ALL OBJECTS IN CLASS: GLOBALGEOMETRYRULES ===========
+
+GlobalGeometryRules,
+    LowerLeftCorner,         !- Starting Vertex Position
+    CounterClockWise,        !- Vertex Entry Direction
+    Relative;                !- Coordinate System
+
+
+
+!-   ===========  ALL OBJECTS IN CLASS: ZONE ===========
+
+Zone,
+    Zone_1,                  !- Name
+	! NO CHANGE
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_2,                  !- Name
+    0,                       !- Direction of Relative North {deg}
+    ###Z_2_X,                       !- X Origin {m}
+    ###Z_2_Y,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_3,                  !- Name
+    0,                       !- Direction of Relative North {deg}
+   ###Z_3_X,                       !- X Origin {m}
+    ###Z_3_Y,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_4,                  !- Name
+	! NO CHANGE
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_Core,               !- Name
+    0,                       !- Direction of Relative North {deg}
+    ###Z_C_X,                       !- X Origin {m}
+    ###Z_C_Y,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+! NO CHANGE
+Zone,
+    Zone_1_1,                !- Name
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    3,                       !- Z Origin {m}
+    1,                       !- Type
+    ###zonemultiplier,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_2_1,                !- Name
+    0,                       !- Direction of Relative North {deg}
+     ###Z_2_X,                       !- X Origin {m}
+    ###Z_2_Y,                       !- Y Origin {m}
+    3,                       !- Z Origin {m}
+    1,                       !- Type
+    ###zonemultiplier,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_3_1,                !- Name
+    0,                       !- Direction of Relative North {deg}
+     ###Z_3_X,                       !- X Origin {m}
+    ###Z_3_Y,                       !- Y Origin {m}
+    3,                       !- Z Origin {m}
+    1,                       !- Type
+    ###zonemultiplier,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+! NO CHANGE
+Zone,
+    Zone_4_1,                !- Name
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    3,                       !- Z Origin {m}
+    1,                       !- Type
+    ###zonemultiplier,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_Core_1,             !- Name
+    0,                       !- Direction of Relative North {deg}
+    ###Z_C_X,                       !- X Origin {m}
+    ###Z_C_Y,                       !- Y Origin {m}
+    3,                       !- Z Origin {m}
+    1,                       !- Type
+    ###zonemultiplier,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+! Second Floor
+	
+Zone,
+    Zone_1_2,                !- Name
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    6,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_2_2,                !- Name
+    0,                       !- Direction of Relative North {deg}
+     ###Z_2_X,                       !- X Origin {m}
+    ###Z_2_Y,                       !- Y Origin {m}
+    6,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_3_2,                !- Name
+    0,                       !- Direction of Relative North {deg}
+     ###Z_3_X,                       !- X Origin {m}
+    ###Z_3_Y,                       !- Y Origin {m}
+    6,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+! NO CHANGE
+Zone,
+    Zone_4_2,                !- Name
+    0,                       !- Direction of Relative North {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    6,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm
+
+Zone,
+    Zone_Core_2,             !- Name
+    0,                       !- Direction of Relative North {deg}
+    ###Z_C_X,                       !- X Origin {m}
+    ###Z_C_Y,                       !- Y Origin {m}
+    6,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    autocalculate,           !- Ceiling Height {m}
+    autocalculate,           !- Volume {m3}
+    autocalculate,           !- Floor Area {m2}
+    TARP;                    !- Zone Inside Convection Algorithm	
+	
+	
+	
+	
+	
+	
+	
+!-   ===========  ALL OBJECTS IN CLASS: ZONELIST ===========
+
+ZoneList,
+    Zone_List,               !- Name
+    Zone_1,                  !- Zone 1 Name
+    Zone_2,                  !- Zone 2 Name
+    Zone_3,                  !- Zone 3 Name
+    Zone_4,                  !- Zone 4 Name
+    Zone_Core,               !- Zone 5 Name
+    Zone_1_1,                !- Zone 6 Name
+    Zone_2_1,                !- Zone 7 Name
+    Zone_3_1,                !- Zone 8 Name
+    Zone_4_1,                !- Zone 9 Name
+    Zone_Core_1,             !- Zone 10 Name
+	Zone_1_2,                !- Zone 11 Name
+    Zone_2_2,                !- Zone 12 Name
+    Zone_3_2,                !- Zone 13 Name
+    Zone_4_2,                !- Zone 14 Name
+    Zone_Core_2;             !- Zone 15 Name
+!-   ===========  ALL OBJECTS IN CLASS: ROOFCEILING:DETAILED ===========
+
+!RoofCeiling:Detailed,
+!    Zone_1_Roof,             !- Name
+!    Roof_Construction,       !- Construction Name
+!    Zone_1,                  !- Zone Name
+!    Outdoors,                !- Outside Boundary Condition
+!    ,                        !- Outside Boundary Condition Object
+!    SunExposed,              !- Sun Exposure
+!    WindExposed,             !- Wind Exposure
+!    autocalculate,           !- View Factor to Ground
+!    4,                       !- Number of Vertices
+!	
+!    ###Z_1_R_1_X,                       !- Vertex 1 X-coordinate {m}
+!    ###Z_1_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+!    ###Z_1_R_1_Z,                       !- Vertex 1 Z-coordinate {m}
+!    ###Z_1_R_2_X,                       !- Vertex 2 X-coordinate {m}
+!    ###Z_1_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+!    ###Z_1_R_2_Z,                       !- Vertex 2 Z-coordinate {m}
+!    ###Z_1_R_3_X,                       !- Vertex 3 X-coordinate {m}
+ !   ###Z_1_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+!    ###Z_1_R_3_Z,                       !- Vertex 3 Z-coordinate {m}
+!    ###Z_1_R_4_X,                       !- Vertex 4 X-coordinate {m}
+!    ###Z_1_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+!    ###Z_1_R_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+!RoofCeiling:Detailed,
+!    Zone_2_Roof,             !- Name
+!    Roof_Construction,       !- Construction Name
+!    Zone_2,                  !- Zone Name
+!    Outdoors,                !- Outside Boundary Condition
+!    ,                        !- Outside Boundary Condition Object
+!    SunExposed,              !- Sun Exposure
+!    WindExposed,             !- Wind Exposure
+!    autocalculate,           !- View Factor to Ground
+!    4,                       !- Number of Vertices
+	
+	
+!    ###Z_2_R_1_X,                       !- Vertex 1 X-coordinate {m}
+!    ###Z_2_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+!    ###Z_2_R_1_Z,                       !- Vertex 1 Z-coordinate {m}
+!    ###Z_2_R_2_X,                       !- Vertex 2 X-coordinate {m}
+!    ###Z_2_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+!    ###Z_2_R_2_Z,                       !- Vertex 2 Z-coordinate {m}
+!    ###Z_2_R_3_X,                       !- Vertex 3 X-coordinate {m}
+!    ###Z_2_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+!    ###Z_2_R_3_Z,                       !- Vertex 3 Z-coordinate {m}
+!    ###Z_2_R_4_X,                       !- Vertex 4 X-coordinate {m}
+!   ###Z_2_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+!    ###Z_2_R_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+!RoofCeiling:Detailed,
+!    Zone_3_Roof,             !- Name
+!    Roof_Construction,       !- Construction Name
+!    Zone_3,                  !- Zone Name
+!    Outdoors,                !- Outside Boundary Condition
+!    ,                        !- Outside Boundary Condition Object
+!    SunExposed,              !- Sun Exposure
+!    WindExposed,             !- Wind Exposure
+!    autocalculate,           !- View Factor to Ground
+!    4,                       !- Number of Vertices
+	
+	
+	
+	
+!    ###Z_3_R_1_X,                       !- Vertex 1 X-coordinate {m}
+!    ###Z_3_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+!    ###Z_3_R_1_Z,                       !- Vertex 1 Z-coordinate {m}
+!    ###Z_3_R_2_X,                       !- Vertex 2 X-coordinate {m}
+!    ###Z_3_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+!    ###Z_3_R_2_Z,                       !- Vertex 2 Z-coordinate {m}
+!    ###Z_3_R_3_X,                       !- Vertex 3 X-coordinate {m}
+!    ###Z_3_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+!	###Z_3_R_3_Z,                       !- Vertex 3 Z-coordinate {m}
+!    ###Z_3_R_4_X,                       !- Vertex 4 X-coordinate {m}
+!    ###Z_3_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+!    ###Z_3_R_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+!RoofCeiling:Detailed,
+!    Zone_4_Roof,             !- Name
+!    Roof_Construction,       !- Construction Name
+!    Zone_4,                  !- Zone Name
+!    Outdoors,                !- Outside Boundary Condition
+!    ,                        !- Outside Boundary Condition Object
+!    SunExposed,              !- Sun Exposure
+!    WindExposed,             !- Wind Exposure
+!    autocalculate,           !- View Factor to Ground
+!    4,                       !- Number of Vertices
+!    ###Z_4_R_1_X,                       !- Vertex 1 X-coordinate {m}
+!    ###Z_4_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+!    ###Z_4_R_1_Z,                       !- Vertex 1 Z-coordinate {m}
+!    ###Z_4_R_2_X,                       !- Vertex 2 X-coordinate {m}
+!    ###Z_4_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+!    ###Z_4_R_2_Z,                       !- Vertex 2 Z-coordinate {m}
+!    ###Z_4_R_3_X,                       !- Vertex 3 X-coordinate {m}
+!    ###Z_4_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+!    ###Z_4_R_3_Z,                       !- Vertex 3 Z-coordinate {m}
+!    ###Z_4_R_4_X,                       !- Vertex 4 X-coordinate {m}
+!    ###Z_4_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+!    ###Z_4_R_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+! First floor block
+RoofCeiling:Detailed,
+    Zone_1_1_Roof,           !- Name
+    Roof_Construction,       !- Construction Name
+    Zone_1_1,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_1_R_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_1_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_1_R_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_1_R_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_1_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_1_R_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_1_R_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_1_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_1_R_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_1_R_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_1_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_1_R_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+RoofCeiling:Detailed,
+    Zone_2_1_Roof,           !- Name
+    Roof_Construction,       !- Construction Name
+    Zone_2_1,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+     ###Z_2_R_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_2_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_2_R_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_2_R_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_2_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_2_R_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_2_R_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_2_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_2_R_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_2_R_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_2_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_2_R_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+RoofCeiling:Detailed,
+    Zone_3_1_Roof,           !- Name
+    Roof_Construction,       !- Construction Name
+    Zone_3_1,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_3_R_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_3_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_3_R_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_3_R_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_3_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_3_R_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_3_R_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_3_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_3_R_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_3_R_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_3_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_3_R_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+RoofCeiling:Detailed,
+    Zone_4_1_Roof,           !- Name
+    Roof_Construction,       !- Construction Name
+    Zone_4_1,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_4_R_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_4_R_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_4_R_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_4_R_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_4_R_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_4_R_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_4_R_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_4_R_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_4_R_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_4_R_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_4_R_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_4_R_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: FLOOR:DETAILED ===========
+
+Floor:Detailed,
+    Zone_1_Floor,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_1,                  !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+	
+	
+    ###Z_1_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_1_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_1_F_1_Z,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_1_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_1_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_1_F_2_Z,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_1_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_1_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_1_F_3_Z,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_1_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_1_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_1_F_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_2_Floor,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_2,                  !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+	
+	
+    ###Z_2_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_2_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_2_F_1_Z,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_2_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_2_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_2_F_2_Z,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_2_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_2_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_2_F_3_Z,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_2_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_2_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_2_F_4_Z;                       !- Vertex 4 Z-coordinate {m}
+	
+	
+	
+	
+Floor:Detailed,
+    Zone_3_Floor,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_3,                  !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+	
+	
+    ###Z_3_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_3_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_3_F_1_Z,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_3_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_3_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_3_F_2_Z,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_3_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_3_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_3_F_3_Z,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_3_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_3_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_3_F_4_Z;                       !- Vertex 4 Z-coordinate {m}
+	
+	
+	
+	
+	
+Floor:Detailed,
+    Zone_4_Floor,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_4,                  !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_4_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_4_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_4_F_1_Z,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_4_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_4_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_4_F_2_Z,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_4_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_4_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_4_F_3_Z,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_4_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_4_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_4_F_4_Z;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_1_1_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_1_1,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_1_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_1_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_1_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_1_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_1_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_1_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_1_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_1_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_1_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_1_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_1_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_1_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_2_1_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_2_1,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_2_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_2_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_2_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_2_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_2_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_2_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_2_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_2_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_2_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_2_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_2_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_2_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_3_1_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_3_1,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_3_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_3_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_3_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_3_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_3_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_3_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_3_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_3_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_3_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_3_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_3_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_3_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_4_1_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_4_1,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_4_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_4_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_4_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_4_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_4_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_4_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_4_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_4_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_4_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_4_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_4_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_4_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+	
+! Second Floor
+
+Floor:Detailed,
+    Zone_1_2_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_1_2,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_1_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_1_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_1_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_1_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_1_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_1_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_1_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_1_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_1_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_1_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_1_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_1_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_2_2_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_2_2,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_2_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_2_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_2_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_2_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_2_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_2_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_2_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_2_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_2_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_2_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_2_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_2_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_3_2_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_3_2,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_3_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_3_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_3_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_3_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_3_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_3_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_3_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_3_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_3_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_3_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_3_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_3_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}
+
+Floor:Detailed,
+    Zone_4_2_Floor,          !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_4_2,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    autocalculate,           !- View Factor to Ground
+    4,                       !- Number of Vertices
+    ###Z_4_F_1_X,                       !- Vertex 1 X-coordinate {m}
+    ###Z_4_F_1_Y,                       !- Vertex 1 Y-coordinate {m}
+    ###Z_4_F_1_Z_1,                       !- Vertex 1 Z-coordinate {m}
+    ###Z_4_F_2_X,                       !- Vertex 2 X-coordinate {m}
+    ###Z_4_F_2_Y,                       !- Vertex 2 Y-coordinate {m}
+    ###Z_4_F_2_Z_1,                       !- Vertex 2 Z-coordinate {m}
+    ###Z_4_F_3_X,                       !- Vertex 3 X-coordinate {m}
+    ###Z_4_F_3_Y,                       !- Vertex 3 Y-coordinate {m}
+    ###Z_4_F_3_Z_1,                       !- Vertex 3 Z-coordinate {m}
+    ###Z_4_F_4_X,                       !- Vertex 4 X-coordinate {m}
+    ###Z_4_F_4_Y,                       !- Vertex 4 Y-coordinate {m}
+    ###Z_4_F_4_Z_1;                       !- Vertex 4 Z-coordinate {m}	
+	
+	
+	
+
+!-   ===========  ALL OBJECTS IN CLASS: WALL:EXTERIOR ===========
+
+!  Nikhil
+Wall:Exterior,
+    N_Wall,                  !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3,                  !- Zone Name
+    0,                       !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+	
+    ###Z_3_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_3_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_ExWall_Z,                       !- Starting Z Coordinate {m}
+    ###Z_3_ExWall_L,                       !- Length {m}
+    ###Z_3_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    S_Wall,                  !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1,                  !- Zone Name
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_1_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_ExWall_Z,                       !- Starting Z Coordinate {m}
+    ###Z_1_ExWall_L,                       !- Length {m}
+    ###Z_1_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    E_Wall,                  !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2,                  !- Zone Name
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_2_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_ExWall_Z,                       !- Starting Z Coordinate {m}
+    ###Z_2_ExWall_L,                       !- Length {m}
+    ###Z_2_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    W_Wall,                  !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4,                  !- Zone Name
+    270,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_4_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_ExWall_Z,                       !- Starting Z Coordinate {m}
+    ###Z_4_ExWall_L,                       !- Length {m}
+    ###Z_4_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    N_Wall_1,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_1,                !- Zone Name
+    0,                       !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_3_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_ExWall_L,                       !- Length {m}
+    ###Z_3_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    S_Wall_1,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_1,                !- Zone Name
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_1_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_1_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_ExWall_L,                       !- Length {m}
+    ###Z_1_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    E_Wall_1,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_1,                !- Zone Name
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_2_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_2_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_ExWall_L,                       !- Length {m}
+    ###Z_2_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    W_Wall_1,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_1,                !- Zone Name
+    270,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_4_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_ExWall_L,                       !- Length {m}
+    ###Z_4_ExWall_H;                     !- Height {m}
+
+	
+! Second Floor
+
+!  Nikhil
+Wall:Exterior,
+    N_Wall_2,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_2,                !- Zone Name
+    0,                       !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_3_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_ExWall_L,                       !- Length {m}
+    ###Z_3_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    S_Wall_2,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_2,                !- Zone Name
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_1_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_1_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_ExWall_L,                       !- Length {m}
+    ###Z_1_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    E_Wall_2,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_2,                !- Zone Name
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_2_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_2_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_ExWall_L,                       !- Length {m}
+    ###Z_2_ExWall_H;                     !- Height {m}
+
+!  Nikhil
+Wall:Exterior,
+    W_Wall_2,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_2,                !- Zone Name
+    270,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_ExWall_X,                       !- Starting X Coordinate {m}
+    ###Z_4_ExWall_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_ExWall_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_ExWall_L,                       !- Length {m}
+    ###Z_4_ExWall_H;                     !- Height {m}
+
+	
+
+!-   ===========  ALL OBJECTS IN CLASS: WALL:INTERZONE ===========
+
+Wall:Interzone,
+    Zone_3_S,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3,                  !- Zone Name
+    Zone_Core,               !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_S_Z,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_S_L,                       !- Length {m}
+    ###Z_3_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_3_E,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3,                  !- Zone Name
+    Zone_2,                  !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_E_Z,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_E_L,                       !- Length {m}
+    ###Z_3_IntWall_E_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_3_W,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3,                  !- Zone Name
+    Zone_4,                  !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_W_Z,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_W_L,                       !- Length {m}
+    ###Z_3_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_N,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1,                  !- Zone Name
+    Zone_Core,               !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_N_Z,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_N_L,                       !- Length {m}
+    ###Z_1_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_W,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1,                  !- Zone Name
+    Zone_4,                  !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_W_Z,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_W_L,                       !- Length {m}
+    ###Z_1_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_E,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1,                  !- Zone Name
+    Zone_2,                  !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_E_Z,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_E_L,                       !- Length {m}
+    ###Z_1_IntWall_E_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_S,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2,                  !- Zone Name
+    Zone_1,                  !- Outside Boundary Condition Object
+    225,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_S_Z,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_S_L,                       !- Length {m}
+    ###Z_2_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_W,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2,                  !- Zone Name
+    Zone_Core,               !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_W_Z,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_W_L,                       !- Length {m}
+    ###Z_2_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_N,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2,                  !- Zone Name
+    Zone_3,                  !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_N_Z,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_N_L,                       !- Length {m}
+    ###Z_2_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_S,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4,                  !- Zone Name
+    Zone_1,                  !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_S_Z,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_S_L,                       !- Length {m}
+    ###Z_4_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_N,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4,                  !- Zone Name
+    Zone_3,                  !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_N_Z,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_N_L,                       !- Length {m}
+    ###Z_4_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_E,                !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4,                  !- Zone Name
+    Zone_Core,               !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_E_Z,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_E_L,                       !- Length {m}
+    ###Z_4_IntWall_E_H;                     !- Height {m}
+
+!	 First floor internal walls
+	
+Wall:Interzone,
+    Zone_3_1_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_1,                !- Zone Name
+    Zone_Core_1,             !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+	
+    ###Z_3_IntWall_S_L,                       !- Length {m}
+    ###Z_3_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_3_1_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_1,                !- Zone Name
+    Zone_2_1,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_E_L,                       !- Length {m}
+    ###Z_3_IntWall_E_H;                     !- Height {m}
+
+
+Wall:Interzone,
+    Zone_3_1_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_1,                !- Zone Name
+    Zone_4_1,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_W_L,                       !- Length {m}
+    ###Z_3_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_1_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_1,                !- Zone Name
+    Zone_Core_1,             !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_N_L,                       !- Length {m}
+    ###Z_1_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_1_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_1,                !- Zone Name
+    Zone_4_1,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_1_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_W_L,                       !- Length {m}
+    ###Z_1_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_1_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_1,                !- Zone Name
+    Zone_2_1,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_E_L,                       !- Length {m}
+    ###Z_1_IntWall_E_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_1_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_1,                !- Zone Name
+    Zone_1_1,                !- Outside Boundary Condition Object
+    225,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_S_L,                       !- Length {m}
+    ###Z_2_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_1_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_1,                !- Zone Name
+    Zone_Core_1,             !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_W_L,                       !- Length {m}
+    ###Z_2_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_1_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_1,                !- Zone Name
+    Zone_3_1,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_N_L,                       !- Length {m}
+    ###Z_2_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_1_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_1,                !- Zone Name
+    Zone_1_1,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_4_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_S_L,                       !- Length {m}
+    ###Z_4_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_1_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_1,                !- Zone Name
+    Zone_3_1,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_N_L,                       !- Length {m}
+    ###Z_4_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_1_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_1,                !- Zone Name
+    Zone_Core_1,             !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_E_L,                       !- Length {m}
+    ###Z_4_IntWall_E_H;                     !- Height {m}
+
+
+! Second Floor (Level 3) internal walls
+Wall:Interzone,
+    Zone_3_2_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_2,                !- Zone Name
+    Zone_Core_2,             !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+	
+    ###Z_3_IntWall_S_L,                       !- Length {m}
+    ###Z_3_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_3_2_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_2,                !- Zone Name
+    Zone_2_2,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_E_L,                       !- Length {m}
+    ###Z_3_IntWall_E_H;                     !- Height {m}
+
+
+Wall:Interzone,
+    Zone_3_2_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_3_2,                !- Zone Name
+    Zone_4_2,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_3_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_3_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_3_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_3_IntWall_W_L,                       !- Length {m}
+    ###Z_3_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_2_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_2,                !- Zone Name
+    Zone_Core_2,             !- Outside Boundary Condition Object
+    180,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_N_L,                       !- Length {m}
+    ###Z_1_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_2_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_2,                !- Zone Name
+    Zone_4_2,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_1_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_W_L,                       !- Length {m}
+    ###Z_1_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_1_2_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_1_2,                !- Zone Name
+    Zone_2_2,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_1_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_1_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_1_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_1_IntWall_E_L,                       !- Length {m}
+    ###Z_1_IntWall_E_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_2_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_2,                !- Zone Name
+    Zone_1_2,                !- Outside Boundary Condition Object
+    225,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_S_L,                       !- Length {m}
+    ###Z_2_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_2_W,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_2,                !- Zone Name
+    Zone_Core_2,             !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_W_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_W_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_W_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_W_L,                       !- Length {m}
+    ###Z_2_IntWall_W_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_2_2_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_2_2,                !- Zone Name
+    Zone_3_2,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_2_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_2_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_2_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_2_IntWall_N_L,                       !- Length {m}
+    ###Z_2_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_2_S,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_2,                !- Zone Name
+    Zone_1_2,                !- Outside Boundary Condition Object
+    135,                     !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+     ###Z_4_IntWall_S_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_S_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_S_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_S_L,                       !- Length {m}
+    ###Z_4_IntWall_S_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_2_N,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_2,                !- Zone Name
+    Zone_3_2,                !- Outside Boundary Condition Object
+    45,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_N_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_N_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_N_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_N_L,                       !- Length {m}
+    ###Z_4_IntWall_N_H;                     !- Height {m}
+
+Wall:Interzone,
+    Zone_4_2_E,              !- Name
+    EWall_Construction,      !- Construction Name
+    Zone_4_2,                !- Zone Name
+    Zone_Core_2,             !- Outside Boundary Condition Object
+    90,                      !- Azimuth Angle {deg}
+    90,                      !- Tilt Angle {deg}
+    ###Z_4_IntWall_E_X,                       !- Starting X Coordinate {m}
+    ###Z_4_IntWall_E_Y,                       !- Starting Y Coordinate {m}
+    ###Z_4_IntWall_E_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_4_IntWall_E_L,                       !- Length {m}
+    ###Z_4_IntWall_E_H;                     !- Height {m}	
+	
+	
+	
+!-   ===========  ALL OBJECTS IN CLASS: ROOF ===========
+
+!Roof,
+!    CORE_ROOF,               !- Name
+!    Roof_Construction,       !- Construction Name
+!    Zone_Core,               !- Zone Name
+!    0,                       !- Azimuth Angle {deg}
+!    180,                     !- Tilt Angle {deg}
+!    ###Z_C_R_X,                       !- Starting X Coordinate {m}
+!    ###Z_C_R_Y,                       !- Starting Y Coordinate {m}
+!    ###Z_C_R_Z,                       !- Starting Z Coordinate {m}
+!    ###Z_C_R_L,                       !- Length {m}
+!   ###Z_C_R_W;                       !- Width {m}
+
+
+Roof,
+    CORE_2_ROOF,             !- Name
+    Roof_Construction,       !- Construction Name
+    Zone_Core_2,             !- Zone Name
+    0,                       !- Azimuth Angle {deg}
+    180,                     !- Tilt Angle {deg}
+    ###Z_C_R_X,                       !- Starting X Coordinate {m}
+    ###Z_C_R_Y,                       !- Starting Y Coordinate {m}
+    ###Z_C_R_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_C_R_L,                       !- Length {m}
+    ###Z_C_R_W;                       !- Width {m}
+
+
+
+!-   ===========  ALL OBJECTS IN CLASS: FLOOR:GROUNDCONTACT ===========
+
+Floor:GroundContact,
+    CORE_FLOOR,              !- Name
+    Floor_Construction,       !- Construction Name
+    Zone_Core,               !- Zone Name
+    0,                       !- Azimuth Angle {deg}
+    180,                     !- Tilt Angle {deg}
+     ###Z_C_F_X,                       !- Starting X Coordinate {m}
+    ###Z_C_F_Y,                       !- Starting Y Coordinate {m}
+    ###Z_C_F_Z,                       !- Starting Z Coordinate {m}
+    ###Z_C_F_L,                       !- Length {m}
+    ###Z_C_F_W;                       !- Width {m}
+
+	
+	
+!-   ===========  ALL OBJECTS IN CLASS: FLOOR:INTERZONE ===========	
+	
+	
+	
+Floor:Interzone,
+    CORE_FLOOR_1,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_Core_1,             !- Zone Name
+	Zone_Core,               !- Outside Boundary Condition Object
+    0,                       !- Azimuth Angle {deg}
+    180,                     !- Tilt Angle {deg}
+    ###Z_C_F_X,                       !- Starting X Coordinate {m}
+    ###Z_C_F_Y,                       !- Starting Y Coordinate {m}
+    ###Z_C_F_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_C_F_L,                       !- Length {m}
+    ###Z_C_F_W;                       !- Width {m}
+
+	
+Floor:Interzone,
+    CORE_FLOOR_2,            !- Name
+    Floor_Construction,      !- Construction Name
+    Zone_Core_2,             !- Zone Name
+	Zone_Core_1,             !- Outside Boundary Condition Object
+    0,                       !- Azimuth Angle {deg}
+    180,                     !- Tilt Angle {deg}
+    ###Z_C_F_X,                       !- Starting X Coordinate {m}
+    ###Z_C_F_Y,                       !- Starting Y Coordinate {m}
+    ###Z_C_F_Z_1,                       !- Starting Z Coordinate {m}
+    ###Z_C_F_L,                       !- Length {m}
+    ###Z_C_F_W;                       !- Width {m}	
+
+!-   ===========  ALL OBJECTS IN CLASS: WINDOW ===========
+
+!  Nikhil
+Window,
+    North_Window,            !- Name
+    Window_Construction,     !- Construction Name
+    N_Wall,                  !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_3_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_3_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_3_Win_L,                       !- Length {m}
+    ###Z_3_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    South_Window,            !- Name
+    Window_Construction,     !- Construction Name
+    S_Wall,                  !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_1_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_1_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_1_Win_L,                       !- Length {m}
+    ###Z_1_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    East_Window,             !- Name
+    Window_Construction,     !- Construction Name
+    E_Wall,                  !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_2_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_2_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_2_Win_L,                       !- Length {m}
+    ###Z_2_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    West_Window,             !- Name
+    Window_Construction,     !- Construction Name
+    W_Wall,                  !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_4_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_4_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_4_Win_L,                       !- Length {m}
+    ###Z_4_Win_H;                       !- Height {m}
+
+
+!  Nikhil
+Window,
+    North_Window_1,          !- Name
+    Window_Construction,     !- Construction Name
+    N_Wall_1,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_3_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_3_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_3_Win_L,                       !- Length {m}
+    ###Z_3_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    South_Window_1,          !- Name
+    Window_Construction,     !- Construction Name
+    S_Wall_1,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_1_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_1_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_1_Win_L,                       !- Length {m}
+    ###Z_1_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    East_Window_1,           !- Name
+    Window_Construction,     !- Construction Name
+    E_Wall_1,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+     ###Z_2_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_2_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_2_Win_L,                       !- Length {m}
+    ###Z_2_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    West_Window_1,           !- Name
+    Window_Construction,     !- Construction Name
+    W_Wall_1,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_4_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_4_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_4_Win_L,                       !- Length {m}
+    ###Z_4_Win_H;                       !- Height {m}
+
+	
+	
+! Second Floor Window
+Window,
+    North_Window_2,          !- Name
+    Window_Construction,     !- Construction Name
+    N_Wall_2,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_3_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_3_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_3_Win_L,                       !- Length {m}
+    ###Z_3_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    South_Window_2,          !- Name
+    Window_Construction,     !- Construction Name
+    S_Wall_2,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_1_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_1_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_1_Win_L,                       !- Length {m}
+    ###Z_1_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    East_Window_2,           !- Name
+    Window_Construction,     !- Construction Name
+    E_Wall_2,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+     ###Z_2_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_2_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_2_Win_L,                       !- Length {m}
+    ###Z_2_Win_H;                       !- Height {m}
+
+!  Nikhil
+Window,
+    West_Window_2,           !- Name
+    Window_Construction,     !- Construction Name
+    W_Wall_2,                !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    ###Z_4_Win_X,                       !- Starting X Coordinate {m}
+    ###Z_4_Win_Z,                   !- Starting Z Coordinate {m}
+    ###Z_4_Win_L,                       !- Length {m}
+    ###Z_4_Win_H;                       !- Height {m}	
+	
+	
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SHADING:OVERHANG ===========
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_N,         !- Name
+    North_Window,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_N;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_S,         !- Name
+    South_Window,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_S;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_E,         !- Name
+    East_Window,             !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_E;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_W,         !- Name
+    West_Window,             !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_W;                     !- Depth {m}
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_N_1,       !- Name
+    North_Window_1,          !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_N;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_S_1,       !- Name
+    South_Window_1,          !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_S;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_E_1,       !- Name
+    East_Window_1,           !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+   ###Shade_E;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_W_1,       !- Name
+    West_Window_1,           !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_W;                     !- Depth {m}
+
+! Second Floor Shade
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_N_2,       !- Name
+    North_Window_2,          !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_N;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_S_2,       !- Name
+    South_Window_2,          !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_S;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_E_2,       !- Name
+    East_Window_2,           !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+   ###Shade_E;                     !- Depth {m}
+
+!  Nikhil
+Shading:Overhang,
+    Test_overhang_W_2,       !- Name
+    West_Window_2,           !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    ###Shade_W;                     !- Depth {m}
+	
