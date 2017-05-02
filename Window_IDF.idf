@@ -8,7 +8,7 @@ Window,
     1,                       !- Multiplier
     0.1,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -18,9 +18,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    1.73,                       !- Starting X Coordinate {m}
+    1.61,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -30,9 +30,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    3.37,                       !- Starting X Coordinate {m}
+    3.12,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -42,9 +42,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    5.0,                       !- Starting X Coordinate {m}
+    4.63,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -54,9 +54,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    6.63,                       !- Starting X Coordinate {m}
+    6.13,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -66,9 +66,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    8.26,                       !- Starting X Coordinate {m}
+    7.64,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -78,9 +78,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    9.9,                       !- Starting X Coordinate {m}
+    9.15,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -90,9 +90,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    11.53,                       !- Starting X Coordinate {m}
+    10.66,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -102,225 +102,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    13.16,                       !- Starting X Coordinate {m}
+    12.17,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall9,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    14.79,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall10,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    16.43,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall11,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    18.06,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall12,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    19.69,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall13,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    21.32,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall14,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    22.96,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall15,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    24.59,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall16,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    26.22,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall17,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    27.86,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall18,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    29.49,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall19,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    31.12,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall20,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    32.75,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall21,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    34.39,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall22,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    36.02,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall23,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    37.65,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall24,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    39.28,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall25,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    40.92,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    N_Wall26,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    42.55,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -332,7 +116,7 @@ Window,
     1,                       !- Multiplier
     0.1,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -342,9 +126,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    1.73,                       !- Starting X Coordinate {m}
+    1.61,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -354,9 +138,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    3.37,                       !- Starting X Coordinate {m}
+    3.12,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -366,9 +150,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    5.0,                       !- Starting X Coordinate {m}
+    4.63,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -378,9 +162,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    6.63,                       !- Starting X Coordinate {m}
+    6.13,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -390,9 +174,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    8.26,                       !- Starting X Coordinate {m}
+    7.64,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -402,9 +186,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    9.9,                       !- Starting X Coordinate {m}
+    9.15,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -414,9 +198,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    11.53,                       !- Starting X Coordinate {m}
+    10.66,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -426,225 +210,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    13.16,                       !- Starting X Coordinate {m}
+    12.17,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall9,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    14.79,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall10,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    16.43,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall11,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    18.06,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall12,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    19.69,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall13,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    21.32,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall14,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    22.96,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall15,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    24.59,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall16,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    26.22,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall17,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    27.86,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall18,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    29.49,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall19,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    31.12,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall20,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    32.75,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall21,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    34.39,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall22,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    36.02,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall23,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    37.65,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall24,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    39.28,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall25,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    40.92,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    S_Wall26,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    42.55,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.99380799,                       !- Length {m}
+    0.942809041582,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -656,7 +224,7 @@ Window,
     1,                       !- Multiplier
     0.1,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -666,9 +234,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    1.65,                       !- Starting X Coordinate {m}
+    1.42,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -678,9 +246,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    3.21,                       !- Starting X Coordinate {m}
+    2.74,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -690,9 +258,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    4.76,                       !- Starting X Coordinate {m}
+    4.06,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -702,117 +270,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    6.32,                       !- Starting X Coordinate {m}
+    5.38,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall5,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    7.87,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall6,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    9.43,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall7,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    10.98,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall8,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    12.54,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall9,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    14.09,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall10,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    15.65,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall11,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    17.2,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall12,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    18.76,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    E_Wall13,            !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    20.31,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -824,7 +284,7 @@ Window,
     1,                       !- Multiplier
     0.1,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -834,9 +294,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    1.65,                       !- Starting X Coordinate {m}
+    1.42,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -846,9 +306,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    3.21,                       !- Starting X Coordinate {m}
+    2.74,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -858,9 +318,9 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    4.76,                       !- Starting X Coordinate {m}
+    4.06,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}
 
 Window,
@@ -870,115 +330,7 @@ Window,
     INCIDENT SOLAR ON BLIND, !- Shading Control Name
     ,                        !- Frame and Divider Name
     1,                       !- Multiplier
-    6.32,                       !- Starting X Coordinate {m}
+    5.38,                       !- Starting X Coordinate {m}
     1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall5,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    7.87,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall6,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    9.43,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall7,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    10.98,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall8,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    12.54,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall9,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    14.09,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall10,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    15.65,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall11,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    17.2,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall12,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    18.76,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
-    1.0;                       !- Height {m}
-
-Window,
-    W_Wall13,            !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    20.31,                       !- Starting X Coordinate {m}
-    1.0,                   !- Starting Z Coordinate {m}
-    0.9583148475,                       !- Length {m}
+    0.848528137424,                       !- Length {m}
     1.0;                       !- Height {m}

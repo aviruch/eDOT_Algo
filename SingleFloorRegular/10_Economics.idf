@@ -82,28 +82,28 @@ CurrencyType,
 
 !-   ===========  ALL OBJECTS IN CLASS: UTILITYCOST:TARIFF ===========
 
-!UtilityCost:Tariff,
-!    ElectricityCost,         !- Name
-!    ElectricityPurchased:Facility,  !- Output Meter Name
-!    kWh,                     !- Conversion Factor Choice
-!    ,                        !- Energy Conversion Factor
-!    ,                        !- Demand Conversion Factor
-!    ,                        !- Time of Use Period Schedule Name
-!    ,                        !- Season Schedule Name
-!    ,                        !- Month Schedule Name
-!    ,                        !- Demand Window Length
-!    0;                       !- Monthly Charge or Variable Name
+UtilityCost:Tariff,
+    ElectricityCost,         !- Name
+    ElectricityPurchased:Facility,  !- Output Meter Name
+    kWh,                     !- Conversion Factor Choice
+    ,                        !- Energy Conversion Factor
+    ,                        !- Demand Conversion Factor
+    ,                        !- Time of Use Period Schedule Name
+    ,                        !- Season Schedule Name
+    ,                        !- Month Schedule Name
+    ,                        !- Demand Window Length
+    0;                       !- Monthly Charge or Variable Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: UTILITYCOST:CHARGE:SIMPLE ===========
 
-!UtilityCost:Charge:Simple,
-!    FlatEnergyCharge,        !- Name
-!    ElectricityCost,         !- Tariff Name
-!    totalEnergy,             !- Source Variable
-!    Annual,                  !- Season
-!    EnergyCharges,           !- Category Variable Name
-!    5;                       !- Cost per Unit Value or Variable Name
+UtilityCost:Charge:Simple,
+    FlatEnergyCharge,        !- Name
+    ElectricityCost,         !- Tariff Name
+    totalEnergy,             !- Source Variable
+    Annual,                  !- Season
+    EnergyCharges,           !- Category Variable Name
+    5;                       !- Cost per Unit Value or Variable Name
 
 
 

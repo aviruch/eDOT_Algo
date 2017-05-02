@@ -32,4 +32,4 @@ python MainFile_v9_local.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP tru
 
 Test Case for Regular window
 
-python MainFile_v9_local.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP true false OnHighSolar 1 Regular 0.5 1 1 1 0.351 0.5 0.2 0 0 2 0 0
+python MainFile_v10_local.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP true false OnHighSolar 1 Regular 0.5 1 1 1 0.351 0.5 0.2 0 0 2 0 0

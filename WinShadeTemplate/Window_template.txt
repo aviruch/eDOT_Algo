@@ -1,0 +1,11 @@
+Window,
+    Window_ID,            !- Name
+    Window_Construction,     !- Construction Name
+    Wall_ID,                  !- Building Surface Name
+    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    Win_X,                       !- Starting X Coordinate {m}
+    Win_Z,                   !- Starting Z Coordinate {m}
+    Win_L,                       !- Length {m}
+    Win_H;                       !- Height {m}

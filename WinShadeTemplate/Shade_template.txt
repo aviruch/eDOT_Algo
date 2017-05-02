@@ -1,0 +1,8 @@
+!Shading:Overhang,
+!    Shade_ID,         !- Name
+!    Window_ID,            !- Window or Door Name
+!    0.0,                     !- Height above Window or Door {m}
+!    90,                      !- Tilt Angle from Window/Door {deg}
+!    0.0,                     !- Left extension from Window/Door Width {m}
+!    0.0,                     !- Right extension from Window/Door Width {m}
+!    Shade_Depth;          !- Depth {m}

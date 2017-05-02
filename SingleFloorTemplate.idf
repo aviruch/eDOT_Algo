@@ -1431,33 +1431,33 @@ CurrencyType,
 
 !-   ===========  ALL OBJECTS IN CLASS: COMPONENTCOST:LINEITEM ===========
 
-ComponentCost:LineItem,
-    Exterior Walls,          !- Name
-    ,                        !- Type
-    Construction,            !- Line Item Type
-    EWall_Construction,      !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    1000;                    !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Exterior Walls,          !- Name
+!    ,                        !- Type
+!    Construction,            !- Line Item Type
+!    EWall_Construction,      !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    1000;                    !- Cost per Area {$/m2}
 
-ComponentCost:LineItem,
-    Roof,                    !- Name
-    ,                        !- Type
-    Construction,            !- Line Item Type
-    Roof_Construction,       !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    1500;                    !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Roof,                    !- Name
+!    ,                        !- Type
+!    Construction,            !- Line Item Type
+!    Roof_Construction,       !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    1500;                    !- Cost per Area {$/m2}
 
 !  Nikhil
-ComponentCost:LineItem,
-    Glass Cost,              !- Name
-    ,                        !- Type
-    Construction,            !- Line Item Type
-    Window_Construction,     !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    ###Glass_Cost;                  !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Glass Cost,              !- Name
+!    ,                        !- Type
+!    Construction,            !- Line Item Type
+!    Window_Construction,     !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    ###Glass_Cost;                  !- Cost per Area {$/m2}
 
 ! SHGC VLT RS
 ! SHGC VLT RS
@@ -1466,41 +1466,41 @@ ComponentCost:LineItem,
 ! SHGC VLT RS
 ! SHGC VLT RS
 ! SHGC VLT RS
-ComponentCost:LineItem,
-    Overhang,                !- Name
-    ,                        !- Type
-    Shading:Zone:Detailed,   !- Line Item Type
-    Test_overhang_S,         !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    500;                     !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Overhang,                !- Name
+!    ,                        !- Type
+!    Shading:Zone:Detailed,   !- Line Item Type
+!    Test_overhang_S,         !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    500;                     !- Cost per Area {$/m2}
 
-ComponentCost:LineItem,
-    Overhang,                !- Name
-    ,                        !- Type
-    Shading:Zone:Detailed,   !- Line Item Type
-    Test_overhang_N,         !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    500;                     !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Overhang,                !- Name
+!    ,                        !- Type
+!    Shading:Zone:Detailed,   !- Line Item Type
+!    Test_overhang_N,         !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    500;                     !- Cost per Area {$/m2}
 
-ComponentCost:LineItem,
-    Overhang,                !- Name
-    ,                        !- Type
-    Shading:Zone:Detailed,   !- Line Item Type
-    Test_overhang_E,         !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    500;                     !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Overhang,                !- Name
+!    ,                        !- Type
+!    Shading:Zone:Detailed,   !- Line Item Type
+!    Test_overhang_E,         !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    500;                     !- Cost per Area {$/m2}
 
-ComponentCost:LineItem,
-    Overhang,                !- Name
-    ,                        !- Type
-    Shading:Zone:Detailed,   !- Line Item Type
-    Test_overhang_W,         !- Item Name
-    ,                        !- Object End Use Key
-    ,                        !- Cost per Each {$}
-    500;                     !- Cost per Area {$/m2}
+!ComponentCost:LineItem,
+!    Overhang,                !- Name
+!    ,                        !- Type
+!    Shading:Zone:Detailed,   !- Line Item Type
+!    Test_overhang_W,         !- Item Name
+!    ,                        !- Object End Use Key
+!    ,                        !- Cost per Each {$}
+!    500;                     !- Cost per Area {$/m2}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: UTILITYCOST:TARIFF ===========
