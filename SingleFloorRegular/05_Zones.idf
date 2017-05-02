@@ -550,56 +550,56 @@ Floor:GroundContact,
 !-   ===========  ALL OBJECTS IN CLASS: WINDOW ===========
 
 !  Nikhil
-Window,
-    North_Window,            !- Name
-    Window_Construction,     !- Construction Name
-    N_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    ###Z_3_Win_X,                       !- Starting X Coordinate {m}
-    ###Z_3_Win_Z,                   !- Starting Z Coordinate {m}
-    ###Z_3_Win_L,                       !- Length {m}
-    ###Z_3_Win_H;                       !- Height {m}
+!Window,
+!    North_Window,            !- Name
+!    Window_Construction,     !- Construction Name
+!    N_Wall,                  !- Building Surface Name
+!    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+!    ,                        !- Frame and Divider Name
+!    1,                       !- Multiplier
+!    ###Z_3_Win_X,                       !- Starting X Coordinate {m}
+!    ###Z_3_Win_Z,                   !- Starting Z Coordinate {m}
+!    ###Z_3_Win_L,                       !- Length {m}
+!    ###Z_3_Win_H;                       !- Height {m}
 
 !  Nikhil
-Window,
-    South_Window,            !- Name
-    Window_Construction,     !- Construction Name
-    S_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    ###Z_1_Win_X,                       !- Starting X Coordinate {m}
-    ###Z_1_Win_Z,                   !- Starting Z Coordinate {m}
-    ###Z_1_Win_L,                       !- Length {m}
-    ###Z_1_Win_H;                       !- Height {m}
+!Window,
+!    South_Window,            !- Name
+!    Window_Construction,     !- Construction Name
+!    S_Wall,                  !- Building Surface Name
+!    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+!    ,                        !- Frame and Divider Name
+!    1,                       !- Multiplier
+!    ###Z_1_Win_X,                       !- Starting X Coordinate {m}
+!    ###Z_1_Win_Z,                   !- Starting Z Coordinate {m}
+!    ###Z_1_Win_L,                       !- Length {m}
+!    ###Z_1_Win_H;                       !- Height {m}
 
 !  Nikhil
-Window,
-    East_Window,             !- Name
-    Window_Construction,     !- Construction Name
-    E_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    ###Z_2_Win_X,                       !- Starting X Coordinate {m}
-    ###Z_2_Win_Z,                   !- Starting Z Coordinate {m}
-    ###Z_2_Win_L,                       !- Length {m}
-    ###Z_2_Win_H;                       !- Height {m}
+!Window,
+!    East_Window,             !- Name
+!    Window_Construction,     !- Construction Name
+!    E_Wall,                  !- Building Surface Name
+!    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+!    ,                        !- Frame and Divider Name
+!    1,                       !- Multiplier
+!    ###Z_2_Win_X,                       !- Starting X Coordinate {m}
+!    ###Z_2_Win_Z,                   !- Starting Z Coordinate {m}
+!    ###Z_2_Win_L,                       !- Length {m}
+!    ###Z_2_Win_H;                       !- Height {m}
 
 !  Nikhil
-Window,
-    West_Window,             !- Name
-    Window_Construction,     !- Construction Name
-    W_Wall,                  !- Building Surface Name
-    INCIDENT SOLAR ON BLIND, !- Shading Control Name
-    ,                        !- Frame and Divider Name
-    1,                       !- Multiplier
-    ###Z_4_Win_X,                       !- Starting X Coordinate {m}
-    ###Z_4_Win_Z,                   !- Starting Z Coordinate {m}
-    ###Z_4_Win_L,                       !- Length {m}
-    ###Z_4_Win_H;                       !- Height {m}
+!Window,
+!    West_Window,             !- Name
+!    Window_Construction,     !- Construction Name
+!    W_Wall,                  !- Building Surface Name
+!    INCIDENT SOLAR ON BLIND, !- Shading Control Name
+!    ,                        !- Frame and Divider Name
+!    1,                       !- Multiplier
+!    ###Z_4_Win_X,                       !- Starting X Coordinate {m}
+!    ###Z_4_Win_Z,                   !- Starting Z Coordinate {m}
+!    ###Z_4_Win_L,                       !- Length {m}
+!    ###Z_4_Win_H;                       !- Height {m}
 
 
 
@@ -607,43 +607,43 @@ Window,
 !-   ===========  ALL OBJECTS IN CLASS: SHADING:OVERHANG ===========
 
 !  Nikhil
-Shading:Overhang,
-    Test_overhang_N,         !- Name
-    North_Window,            !- Window or Door Name
-    0.0,                     !- Height above Window or Door {m}
-    90,                      !- Tilt Angle from Window/Door {deg}
-    0.0,                     !- Left extension from Window/Door Width {m}
-    0.0,                     !- Right extension from Window/Door Width {m}
-    ###Shade_N;                     !- Depth {m}
+!Shading:Overhang,
+!    Test_overhang_N,         !- Name
+!    North_Window,            !- Window or Door Name
+!    0.0,                     !- Height above Window or Door {m}
+!    90,                      !- Tilt Angle from Window/Door {deg}
+!    0.0,                     !- Left extension from Window/Door Width {m}
+!    0.0,                     !- Right extension from Window/Door Width {m}
+!    ###Shade_N;                     !- Depth {m}
 
 !  Nikhil
-Shading:Overhang,
-    Test_overhang_S,         !- Name
-    South_Window,            !- Window or Door Name
-    0.0,                     !- Height above Window or Door {m}
-    90,                      !- Tilt Angle from Window/Door {deg}
-    0.0,                     !- Left extension from Window/Door Width {m}
-    0.0,                     !- Right extension from Window/Door Width {m}
-    ###Shade_S;                     !- Depth {m}
+!Shading:Overhang,
+!    Test_overhang_S,         !- Name
+!    South_Window,            !- Window or Door Name
+!    0.0,                     !- Height above Window or Door {m}
+!    90,                      !- Tilt Angle from Window/Door {deg}
+!    0.0,                     !- Left extension from Window/Door Width {m}
+!    0.0,                     !- Right extension from Window/Door Width {m}
+!    ###Shade_S;                     !- Depth {m}
 
 !  Nikhil
-Shading:Overhang,
-    Test_overhang_E,         !- Name
-    East_Window,             !- Window or Door Name
-    0.0,                     !- Height above Window or Door {m}
-    90,                      !- Tilt Angle from Window/Door {deg}
-    0.0,                     !- Left extension from Window/Door Width {m}
-    0.0,                     !- Right extension from Window/Door Width {m}
-    ###Shade_E;                     !- Depth {m}
+!Shading:Overhang,
+!    Test_overhang_E,         !- Name
+!    East_Window,             !- Window or Door Name
+!    0.0,                     !- Height above Window or Door {m}
+!    90,                      !- Tilt Angle from Window/Door {deg}
+!    0.0,                     !- Left extension from Window/Door Width {m}
+!    0.0,                     !- Right extension from Window/Door Width {m}
+!    ###Shade_E;                     !- Depth {m}
 
 !  Nikhil
-Shading:Overhang,
-    Test_overhang_W,         !- Name
-    West_Window,             !- Window or Door Name
-    0.0,                     !- Height above Window or Door {m}
-    90,                      !- Tilt Angle from Window/Door {deg}
-    0.0,                     !- Left extension from Window/Door Width {m}
-    0.0,                     !- Right extension from Window/Door Width {m}
-    ###Shade_W;                     !- Depth {m}
+!Shading:Overhang,
+!    Test_overhang_W,         !- Name
+!    West_Window,             !- Window or Door Name
+!    0.0,                     !- Height above Window or Door {m}
+!    90,                      !- Tilt Angle from Window/Door {deg}
+!    0.0,                     !- Left extension from Window/Door Width {m}
+!    0.0,                     !- Right extension from Window/Door Width {m}
+!    ###Shade_W;                     !- Depth {m}
 
 

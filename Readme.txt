@@ -25,4 +25,11 @@ energyplus -w IND_Ahmedabad.426470_ISHRAE.epw -p ./Output/b -s C -x -m -r b_86.i
 
 
 
+python MainFile_v6.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP true false OnHighSolar 10 Strip 0.5 0 0 0 0.351 0.5 0.2 0 30 2 0 0
 
+python MainFile_v9_local.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP true false OnHighSolar 10 Strip 0.5 0 0 0 0.351 0.5 0.2 0 30 2 0 0
+
+
+Test Case for Regular window
+
+python MainFile_v9_local.py 1000 IND_Ahmedabad.426470_ISHRAE.epw Office PTHP true false OnHighSolar 1 Regular 0.5 1 1 1 0.351 0.5 0.2 0 0 2 0 0

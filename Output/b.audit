@@ -1,0 +1,67 @@
+  Processing Data Dictionary -- Complete
+  Maximum number of Alpha Args=        4500
+  Maximum number of Numeric Args=       21040
+  Number of Object Definitions=         768
+  Number of Section Definitions=           2
+  Total Number of Alpha Fields=       18770
+  Total Number of Numeric Fields=       40080
+  Total Number of Fields=       58850
+  Processing Input Data File -- Start
+  Echo of input lines is off. May be activated by setting the environmental variable DISPLAYINPUTINAUDIT=YES
+  Processing Input Data File -- Complete
+  Maximum number of Alpha IDF Args=          19
+  Maximum number of Numeric IDF Args=          27
+  Number of IDF "Lines"=         229
+  Number of Defaulted Fields=          18
+  Number of Fields with Defaults=         361
+  Number of Autosized Fields=          64
+  Number of Autosizable Fields =          66
+  Number of Autocalculated Fields=          28
+  Number of Autocalculatable Fields =          37
+ Getting object=VERSION
+ Getting object=TIMESTEP
+ Getting object=SIMULATIONCONTROL
+ Getting object=OUTPUT:SURFACES:DRAWING
+ Getting object=OUTPUT:VARIABLEDICTIONARY
+ Getting object=BRANCH
+ Getting object=CURVE:BIQUADRATIC
+ Getting object=CURVE:QUADRATIC
+ Getting object=NODELIST
+ Getting object=BRANCHLIST
+ Getting object=DESIGNSPECIFICATION:OUTDOORAIR
+ Getting object=DESIGNSPECIFICATION:ZONEAIRDISTRIBUTION
+ Getting object=ZONE
+ Getting object=ZONELIST
+ Getting object=SIZING:ZONE
+ Getting object=SIZING:SYSTEM
+ Getting object=SIZING:PLANT
+ Getting object=OUTPUT:TABLE:SUMMARYREPORTS
+ Getting object=OUTPUT:VARIABLE
+ Getting object=SIZINGPERIOD:DESIGNDAY
+ Getting object=RUNPERIOD
+ Getting object=SCHEDULE:COMPACT
+  Processing Schedule Input -- Start
+ Getting object=SCHEDULETYPELIMITS
+  Processing Schedule Input -- Complete
+ Getting object=BUILDING
+ Getting object=MATERIAL
+ Getting object=WINDOWMATERIAL:BLIND
+ Getting object=WINDOWMATERIAL:SIMPLEGLAZINGSYSTEM
+ Getting object=CONSTRUCTION
+ Getting object=GLOBALGEOMETRYRULES
+ Getting object=FLOOR:DETAILED
+ Getting object=ROOFCEILING:DETAILED
+ Getting object=WALL:EXTERIOR
+ Getting object=WALL:INTERZONE
+ Getting object=ROOF
+ Getting object=FLOOR:GROUNDCONTACT
+ Getting object=WINDOWPROPERTY:SHADINGCONTROL
+ Getting object=WINDOW
+ Getting object=SHADING:OVERHANG
+ Getting object=PEOPLE
+ Getting object=LIGHTS
+ Getting object=ELECTRICEQUIPMENT
+ Getting object=OUTDOORAIR:NODELIST
+ Getting object=OUTDOORAIR:NODE
+ Getting object=ZONECONTROL:THERMOSTAT
+ Getting object=THERMOSTATSETPOINT:DUALSETPOINT

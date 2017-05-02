@@ -1,0 +1,738 @@
+
+Shading:Overhang,
+    shade_N_Wall0,         !- Name
+    N_Wall0,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall1,         !- Name
+    N_Wall1,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall2,         !- Name
+    N_Wall2,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall3,         !- Name
+    N_Wall3,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall4,         !- Name
+    N_Wall4,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall5,         !- Name
+    N_Wall5,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall6,         !- Name
+    N_Wall6,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall7,         !- Name
+    N_Wall7,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall8,         !- Name
+    N_Wall8,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall9,         !- Name
+    N_Wall9,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall10,         !- Name
+    N_Wall10,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall11,         !- Name
+    N_Wall11,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall12,         !- Name
+    N_Wall12,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall13,         !- Name
+    N_Wall13,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall14,         !- Name
+    N_Wall14,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall15,         !- Name
+    N_Wall15,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall16,         !- Name
+    N_Wall16,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall17,         !- Name
+    N_Wall17,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall18,         !- Name
+    N_Wall18,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall19,         !- Name
+    N_Wall19,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall20,         !- Name
+    N_Wall20,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall21,         !- Name
+    N_Wall21,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall22,         !- Name
+    N_Wall22,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall23,         !- Name
+    N_Wall23,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall24,         !- Name
+    N_Wall24,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall25,         !- Name
+    N_Wall25,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_N_Wall26,         !- Name
+    N_Wall26,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall0,         !- Name
+    S_Wall0,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall1,         !- Name
+    S_Wall1,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall2,         !- Name
+    S_Wall2,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall3,         !- Name
+    S_Wall3,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall4,         !- Name
+    S_Wall4,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall5,         !- Name
+    S_Wall5,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall6,         !- Name
+    S_Wall6,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall7,         !- Name
+    S_Wall7,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall8,         !- Name
+    S_Wall8,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall9,         !- Name
+    S_Wall9,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall10,         !- Name
+    S_Wall10,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall11,         !- Name
+    S_Wall11,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall12,         !- Name
+    S_Wall12,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall13,         !- Name
+    S_Wall13,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall14,         !- Name
+    S_Wall14,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall15,         !- Name
+    S_Wall15,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall16,         !- Name
+    S_Wall16,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall17,         !- Name
+    S_Wall17,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall18,         !- Name
+    S_Wall18,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall19,         !- Name
+    S_Wall19,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall20,         !- Name
+    S_Wall20,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall21,         !- Name
+    S_Wall21,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall22,         !- Name
+    S_Wall22,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall23,         !- Name
+    S_Wall23,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall24,         !- Name
+    S_Wall24,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall25,         !- Name
+    S_Wall25,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_S_Wall26,         !- Name
+    S_Wall26,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall0,         !- Name
+    E_Wall0,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall1,         !- Name
+    E_Wall1,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall2,         !- Name
+    E_Wall2,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall3,         !- Name
+    E_Wall3,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall4,         !- Name
+    E_Wall4,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall5,         !- Name
+    E_Wall5,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall6,         !- Name
+    E_Wall6,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall7,         !- Name
+    E_Wall7,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall8,         !- Name
+    E_Wall8,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall9,         !- Name
+    E_Wall9,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall10,         !- Name
+    E_Wall10,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall11,         !- Name
+    E_Wall11,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall12,         !- Name
+    E_Wall12,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_E_Wall13,         !- Name
+    E_Wall13,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall0,         !- Name
+    W_Wall0,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall1,         !- Name
+    W_Wall1,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall2,         !- Name
+    W_Wall2,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall3,         !- Name
+    W_Wall3,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall4,         !- Name
+    W_Wall4,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall5,         !- Name
+    W_Wall5,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall6,         !- Name
+    W_Wall6,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall7,         !- Name
+    W_Wall7,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall8,         !- Name
+    W_Wall8,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall9,         !- Name
+    W_Wall9,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall10,         !- Name
+    W_Wall10,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall11,         !- Name
+    W_Wall11,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall12,         !- Name
+    W_Wall12,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}
+
+Shading:Overhang,
+    shade_W_Wall13,         !- Name
+    W_Wall13,            !- Window or Door Name
+    0.0,                     !- Height above Window or Door {m}
+    90,                      !- Tilt Angle from Window/Door {deg}
+    0.0,                     !- Left extension from Window/Door Width {m}
+    0.0,                     !- Right extension from Window/Door Width {m}
+    30.0;          !- Depth {m}

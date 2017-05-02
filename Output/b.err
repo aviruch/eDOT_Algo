@@ -1,0 +1,27 @@
+Program Version,EnergyPlus, Version 8.6.0-198c6a3cff, YMD=2017.05.02 12:17,IDD_Version 8.6.0
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=ZONE_1_FLOOR
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Severe  ** ZoneControl:Thermostat="ZN_1_FLR_1_SEC_1 THERMOSTAT" invalid Control Type Schedule Name="DUAL ZONE CONTROL TYPE SCHED" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_1 DUALSPSCHED" invalid Heating Setpoint Temperature Schedule Name="HTGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_1 DUALSPSCHED" invalid Cooling Setpoint Temperature Schedule Name="CLGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_2 DUALSPSCHED" invalid Heating Setpoint Temperature Schedule Name="HTGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_2 DUALSPSCHED" invalid Cooling Setpoint Temperature Schedule Name="CLGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_3 DUALSPSCHED" invalid Heating Setpoint Temperature Schedule Name="HTGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_3 DUALSPSCHED" invalid Cooling Setpoint Temperature Schedule Name="CLGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_4 DUALSPSCHED" invalid Heating Setpoint Temperature Schedule Name="HTGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_4 DUALSPSCHED" invalid Cooling Setpoint Temperature Schedule Name="CLGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_5 DUALSPSCHED" invalid Heating Setpoint Temperature Schedule Name="HTGSETP_SCH" not found.
+   ** Severe  ** ThermostatSetpoint:DualSetpoint="ZN_1_FLR_1_SEC_5 DUALSPSCHED" invalid Cooling Setpoint Temperature Schedule Name="CLGSETP_SCH" not found.
+   ** Severe  ** GetStagedDualSetpoint: Errors with invalid names in ZoneControl:Thermostat:StagedDualSetpoint objects.
+   **   ~~~   ** ...These will not be read in.  Other errors may occur.
+   **  Fatal  ** Errors getting Zone Control input data.  Preceding condition(s) cause termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=12
+   ..... Last severe error=GetStagedDualSetpoint: Errors with invalid names in ZoneControl:Thermostat:StagedDualSetpoint objects.
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 1 Warning; 12 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 1 Warning; 12 Severe Errors; Elapsed Time=00hr 00min  0.27sec
