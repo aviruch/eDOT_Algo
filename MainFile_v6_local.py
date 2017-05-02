@@ -54,7 +54,7 @@ Overhang = float(sys.argv[18])
 # Wwr = 0.4
 
 # Aspect_Ratio = 2
-Aspect_Ratio = float(sys.argv[20])
+Aspect_Ratio = float(sys.argv[19])
 
 
 
@@ -76,8 +76,8 @@ def generate_co_SingleFloor(Orientation,Area,Ar,Wwr,glass,Overhang):
 	
 	#STRUCTURAL REPRESENTATION
 
-	P = 3.0;
-	H = 3.0;
+	P = 3.0; # Perimeter Depth
+	H = 3.0; # Floor to floor height
 
 	### Independent Params ###
 
@@ -365,10 +365,10 @@ def generate_co_SingleFloor(Orientation,Area,Ar,Wwr,glass,Overhang):
 
 def generate_co_MultiFloor(Orientation,Area,Ar,Wwr,glass,Overhang):
 	
-        zonemultiplier = Floors - 2;	
+        zonemultiplier = Floors - 2;	# Top floor and ground floor minus 
         #STRUCTURAL REPRESENTATION
 
-	P = 3.0; #Perimeter
+	P = 3.0; #Perimeter Depth for daylight
 	H = 3.0;  #Floor to  floor height
 
 
@@ -758,22 +758,25 @@ def generate_co_MultiFloor(Orientation,Area,Ar,Wwr,glass,Overhang):
 
 def FetchResutls():
     time.sleep(1)
-    os.system("clear")
+    #os.system("clear")
     html = linecache.getline('Output/bTable.htm',37)
     m=re.findall(r"\d+\.\d+", html)
     print ("Total Energy =")
-    os.system("clear")
+    #os.system("clear")
     print (m[0])    
-    # # Delete all files
+    
+    return (m[0])
+
+
+def CleanFiles():
+# # Delete all files
     os.system("rm -rf Output")
     #os.system("rm -rf expanded*")
     #os.system("rm -rf eplusout*")
     os.system("rm -rf b.idf")
     os.system("rm -rf sq*")
     os.system("rm -rf ep*") 
-    return (m[0])
-
-
+    os.system("mkdir Output")
 
 
 def RunSimulations(filename):
@@ -781,8 +784,8 @@ def RunSimulations(filename):
     #energyplus -w IND_Ahmedabad.426470_ISHRAE.epw -p ./Output/b -s C -x -m -r b_86.idf
     cmd_test = "/usr/local/bin/energyplus -w "+ WeatherFilePath+ " -p Output/b -s C -x -m -r "+filename 
     print (cmd_test)
-    os.system("rm -rf /Output")
-    os.system("mkdir /Output")
+    #os.system("rm -rf /Output")
+    #os.system("mkdir /Output")
     os.system(cmd_test)
 
 
@@ -790,10 +793,10 @@ def RunSimulations(filename):
 
 def GenerateTemplateMultiFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC):
     
-    Schedule = "OFFICE" # Other Options are "Retail" and "Institute"
+    Schedule = "Office" # Other Options are "Retail" and "Institute"
     #DesignDay  Need to change with weather file selection 
-    #CoolRoof="NO"  #Other Option "Yes"
-    #DayLightSensor="ON"  #Other Option "OFF"
+    #CoolRoof="false"  #Other Option "true"
+    #DayLightSensor="true"  #Other Option "false"
     #IntShades="OFF"  # Other Option "ON"
     HVAC="PTHP" #Other Options are "CentralWaterCooledChiller: CWC" and "CentralAirCooledChiller: CAC"
 
@@ -818,13 +821,13 @@ def GenerateTemplateMultiFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC):
     # Schedule file
     print "Schedule file"
     
-    if Schedule=="OFFICE":
+    if Schedule=="Office":
         file_Schedule_Office=open("MultiFloors/03A_Schedule_Office.idf","r")
         g_3=file_Schedule_Office.read()
         f.write(g_3)
         file_Schedule_Office.close()
     
-    elif Schedule=="RETAIL":
+    elif Schedule=="Retail":
         file_Schedule_Retail=open("MultiFloors/03B_Schedule_Retail.idf","r")
         g_3=file_Schedule_Retail.read()
         f.write(g_3)
@@ -841,7 +844,7 @@ def GenerateTemplateMultiFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC):
     # Cool Roof
     print "Cool Roof file"
     
-    if CoolRoof=="NO":
+    if CoolRoof=="false":
         file_CoolRoof_Off=open("MultiFloors/04A_CoolRoof_OFF.idf","r")
         g_4=file_CoolRoof_Off.read()
         f.write(g_4)
@@ -872,7 +875,7 @@ def GenerateTemplateMultiFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC):
     # Daylight
     print "Daylight"
     
-    if DayLightSensor=="ON": 
+    if DayLightSensor=="true": 
         file_DayLight_ON=open("MultiFloors/07A_Daylight_ON.idf","r")
         g_7=file_DayLight_ON.read()
         f.write(g_7)
@@ -969,13 +972,13 @@ def GenerateTemplateSingleFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC)
     # Schedule file
     print "Schedule file"
     
-    if Schedule=="OFFICE":
+    if Schedule=="Office":
         file_Schedule_Office=open("SingleFloor/03A_Schedule_Office.idf","r")
         g_3=file_Schedule_Office.read()
         f.write(g_3)
         file_Schedule_Office.close()
     
-    elif Schedule=="RETAIL":
+    elif Schedule=="Retail":
         file_Schedule_Retail=open("SingleFloor/03B_Schedule_Retail.idf","r")
         g_3=file_Schedule_Retail.read()
         f.write(g_3)
@@ -990,7 +993,7 @@ def GenerateTemplateSingleFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC)
     # Cool Roof
     print "Cool Roof file"
     
-    if CoolRoof=="NO":
+    if CoolRoof=="false":
         file_CoolRoof_Off=open("SingleFloor/04A_CoolRoof_OFF.idf","r")
         g_4=file_CoolRoof_Off.read()
         f.write(g_4)
@@ -1018,7 +1021,7 @@ def GenerateTemplateSingleFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC)
    # Daylight
     print "Daylight"
     
-    if DayLightSensor=="ON": 
+    if DayLightSensor=="true": 
         file_DayLight_ON=open("SingleFloor/07A_Daylight_ON.idf","r")
         g_7=file_DayLight_ON.read()
         f.write(g_7)
@@ -1033,7 +1036,7 @@ def GenerateTemplateSingleFloor(Schedule,CoolRoof,DayLightSensor,IntShades,HVAC)
     # Internal Shades
     print "Internal Shades"
     
-    if IntShades=="OFF":
+    if IntShades=="NoShadingControl":
         file_IntShade_OFF=open("SingleFloor/08A_IntShade_OFF.idf","r")
         g_8=file_IntShade_OFF.read()
         f.write(g_8)
@@ -1127,12 +1130,16 @@ def ProcessMultiFloor():
 
 # Main starts here
 
+print "Number of Floors"
+print Floors
+
 
 if Floors == 1:
 
     ProcessSingleFloor()
+    print "Finish single floor"
 
-if Floors == 2:
+elif Floors == 2:
     #Second Floor model is not ready yet.
     Floors = 3
     ProcessMultiFloor()
@@ -1144,11 +1151,14 @@ else:
 
 
 # Run EnergyPlus
-#RunSimulations(filename)
+filename ='b.idf'
+RunSimulations(filename)
 
 # # Fetch EnergySimualtion resutls
 
-#FetchResutls()
+FetchResutls()
+
+CleanFiles()
 
 print ("Process Completed")
 
