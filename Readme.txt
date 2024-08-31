@@ -5,7 +5,6 @@ WWR, WindowHeight,WindowWidthP,SillHeight,GlassU, SHGC, VLT, Orientation, OverHa
 
 
 
-
 Sample input
 
 test 1
