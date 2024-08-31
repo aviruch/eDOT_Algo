@@ -12,7 +12,6 @@ print sys.argv
 
 print sys.argv[0],sys.argv[1]
 
-
 # #### define static params ######
 
 # Area=1000.0;
