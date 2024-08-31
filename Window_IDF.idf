@@ -1,4 +1,3 @@
-
 Window,
     N_Wall0,            !- Name
     Window_Construction,     !- Construction Name
