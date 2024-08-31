@@ -10,7 +10,6 @@
 Version,
     8.6;                     !- Version Identifier
 
-
 !-   ===========  ALL OBJECTS IN CLASS: SIMULATIONCONTROL ===========
 
 SimulationControl,
