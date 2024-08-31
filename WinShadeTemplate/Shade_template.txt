@@ -6,3 +6,4 @@
 !    0.0,                     !- Left extension from Window/Door Width {m}
 !    0.0,                     !- Right extension from Window/Door Width {m}
 !    Shade_Depth;          !- Depth {m}
+
